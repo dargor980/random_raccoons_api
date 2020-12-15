@@ -52,7 +52,10 @@ function scanDirs(directoryPath){
 }
 
 
+app.disable("x-powered-by");
 
+let helmet = require('helmet');
+app.use(helmet.hidePoweredBy());
 app.use(express.static(__dirname + '/src'));
 app.listen(3000, () => {
     console.log("El servidor se ha iniciado en el puerto 8000");
@@ -131,7 +134,7 @@ app.post('/raccoons/update', function(req,res){
                     }
                 })
             });
-            res.send("updated")
+            res.send("updated directory database!")
         }
     }); 
    

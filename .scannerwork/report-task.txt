@@ -1,0 +1,6 @@
+projectKey=RANDOM-RACCOONS-API
+serverUrl=http://localhost:9000
+serverVersion=8.5.0.37579
+dashboardUrl=http://localhost:9000/dashboard?id=RANDOM-RACCOONS-API
+ceTaskId=AXZkNFyxnsb6KydhVZDW
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXZkNFyxnsb6KydhVZDW
